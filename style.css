@@ -1,0 +1,863 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+    text-align: center;   
+}
+
+.center{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+body{
+    background-color: #272b30;
+}
+
+.boton{
+    text-align: center;
+}
+
+p{
+    font-size:20px;
+}
+
+.cuerpoimg{
+    width: 100%;
+}
+
+.centro{
+    text-align: center;
+}
+
+.skinName{
+    color: white;
+    size: 3;
+}
+
+.Covert{
+    border: #eb4b4b solid 1px;
+    background-color: #eb4b4b;
+    border-radius: 5px;
+    color: black;
+    width: 92%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Classified{
+    border: #d32ee6 solid 1px;
+    background-color: #d32ee6;
+    border-radius: 5px;
+    color: black;
+    width: 92%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Restricted{
+    border: #8847ff solid 1px;
+    background-color: #8847ff;
+    border-radius: 5px;
+    color: black;
+    width: 92%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Mil-Spec{
+    border: #4b69ff solid 1px;
+    background-color: #4b69ff;
+    border-radius: 5px;
+    color: black;
+    width: 92%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.IndustrialGrade{
+    border: #5e98d9 solid 1px;
+    background-color: #5e98d9;
+    border-radius: 5px;
+    color: black;
+    width: 92%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Consumer{
+    border: #b0c3d9 solid 1px;
+    background-color: #b0c3d9;
+    border-radius: 5px;
+    color: black;
+    width: 92%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.weapon_stand{
+    width: 25%;
+    background-color: #1c1e22;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black; 
+}
+
+.weapon_stand2{
+    width: 80%;
+    background-color: #1c1e22;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-around; 
+    color: white;
+    margin: auto;
+}
+
+.weapon_show{
+    width: 25%;
+    background-color: #1c1e22;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;  
+}
+
+.botonvermas{
+    width: 95%;
+    cursor: pointer;
+    color: white;
+    background-color: #161d30;
+    border: 2px solid #202945;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.width{
+    width: 40%;
+}
+
+.showcase{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.ancho{
+    width: 48%;
+    margin: auto;
+} 
+
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: #1c1e22;
+    float: left;
+    text-align: center;
+        
+}
+
+#footer{
+    width: 100%;
+    height: 25px;
+    background-color: #1c1e22;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    margin-top: 7px;
+    height: 90%;
+}
+
+.img_ppal{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.tabla_izq{
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.portada{
+    width: 100%;
+    align-items: center;
+}
+
+.ppal_galery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.portada2{
+    width: 95%;
+    align-items: center;
+}
+
+#cuerpo2{
+    margin: 0 10px;
+}
+
+#menu{
+    float:left;
+    width: 100%;
+    height: 44.8px;
+    background-color: #1c1e22;
+    text-align: center;
+    z-index: 1;
+}
+
+#menu ul li{
+    background-color:#1c1e22;
+}
+
+#menu ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    padding:10px;
+}
+
+#menu ul li{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+    width: 150px;
+}
+
+#menu ul li:hover{
+    background:#21213b;
+ }
+
+#menu ul ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+
+#menu ul ul li{
+    float:none;
+    width:150px;
+}
+
+#menu ul ul a{
+    padding:10px 15px;
+}
+
+#menu ul li:hover > ul{
+    display:block;
+}
+
+@media only screen and (max-width: 700px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Calibri;
+        text-align: center;
+        
+    }
+    
+    .center{
+        text-align: center;
+    }
+    
+    h1{
+        color: white;
+    }
+    
+    body{
+        background-color: #272b30;
+    }
+    
+    .boton{
+        text-align: center;
+    }
+    
+    p{
+        font-size:20px;
+    }
+    
+    .cuerpoimg{
+        width: 100%;
+    }
+    
+    .centro{
+        text-align: center;
+    }
+    
+    .skinName{
+        color: white;
+        size: 3;
+    }
+    
+    .Covert{
+        border: #eb4b4b solid 1px;
+        background-color: #eb4b4b;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Classified{
+        border: #d32ee6 solid 1px;
+        background-color: #d32ee6;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Restricted{
+        border: #8847ff solid 1px;
+        background-color: #8847ff;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Mil-Spec{
+        border: #4b69ff solid 1px;
+        background-color: #4b69ff;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .IndustrialGrade{
+        border: #5e98d9 solid 1px;
+        background-color: #5e98d9;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Consumer{
+        border: #b0c3d9 solid 1px;
+        background-color: #b0c3d9;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .weapon_stand{
+        width: 85%;
+        background-color: #1c1e22;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black; 
+        margin-top: 20px;
+    }
+    
+    .weapon_stand2{
+        width: 80%;
+        background-color: #1c1e22;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        justify-content: space-around; 
+        color: white;
+        margin: auto;
+    }
+    
+    .weapon_show{
+        width: 25%;
+        background-color: #1c1e22;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;  
+    }
+    
+    .botonvermas{
+        width: 95%;
+        cursor: pointer;
+        color: white;
+        background-color: #161d30;
+        border: 2px solid #202945;
+        height: 30px;
+        border-radius: 3px;
+    }
+    
+    .width{
+        width: 40%;
+    }
+    
+    .showcase{
+        width: 50%;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ancho{
+        width: 48%;
+        margin: auto;
+    } 
+    
+    #header{
+        height: 100px;
+        width: 100%;
+        background-color: #1c1e22;
+        float: left;
+        text-align: center;
+            
+    }
+    
+    #footer{
+        width: 100%;
+        height: 25px;
+        background-color: #1c1e22;
+        float: left;
+        text-align: center;
+        color: white;
+    }
+    
+    #footer a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #logo{
+        margin-top: 7px;
+        height: 90%;
+    }
+    
+    .img_ppal{
+        position: relative;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .tabla_izq{
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+    
+    .portada{
+        width: 100%;
+        align-items: center;
+    }
+    
+    .ppal_galery{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ancho{
+        width: 90%;
+    }
+    
+    .portada2{
+        width: 95%;
+        align-items: center;
+    }
+    
+    #cuerpo2{
+        margin: 0 10px;
+    }
+    
+    #menu{
+        float:left;
+        width: 100%;
+        height: 44.8px;
+        background-color: #1c1e22;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    #menu ul li{
+        background-color:#1c1e22;
+    }
+    
+    #menu ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    
+    #menu ul a{
+        display:block;
+        color:#fff;
+        text-decoration:none;
+        font-size:20px;
+        padding:10px;
+    }
+    
+    #menu ul li{
+        position:relative;
+        float:left;
+        margin:0;
+        padding:0;
+        width: 150px;
+    }
+    
+    #menu ul li:hover{
+        background:#21213b;
+     }
+    
+    #menu ul ul{
+        display:none;
+        position:absolute;
+        top:100%;
+        left:0;
+        padding:0;
+    }
+    
+    #menu ul ul li{
+        float:none;
+        width:150px;
+    }
+    
+    #menu ul ul a{
+        padding:10px 15px;
+    }
+    
+    #menu ul li:hover > ul{
+        display:block;
+    }
+}
+@media only screen and (max-width: 617px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Calibri;
+        text-align: center;
+        
+    }
+    
+    .center{
+        text-align: center;
+    }
+    
+    h1{
+        color: white;
+    }
+    
+    body{
+        background-color: #272b30;
+    }
+    
+    .boton{
+        text-align: center;
+    }
+    
+    p{
+        font-size:20px;
+    }
+    
+    .cuerpoimg{
+        width: 100%;
+    }
+    
+    .centro{
+        text-align: center;
+    }
+    
+    .skinName{
+        color: white;
+        size: 3;
+    }
+    
+    .Covert{
+        border: #eb4b4b solid 1px;
+        background-color: #eb4b4b;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Classified{
+        border: #d32ee6 solid 1px;
+        background-color: #d32ee6;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Restricted{
+        border: #8847ff solid 1px;
+        background-color: #8847ff;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Mil-Spec{
+        border: #4b69ff solid 1px;
+        background-color: #4b69ff;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .IndustrialGrade{
+        border: #5e98d9 solid 1px;
+        background-color: #5e98d9;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .Consumer{
+        border: #b0c3d9 solid 1px;
+        background-color: #b0c3d9;
+        border-radius: 5px;
+        color: black;
+        width: 92%;
+        height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .weapon_stand{
+        width: 85%;
+        background-color: #1c1e22;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black; 
+        margin-top: 20px;
+    }
+    
+    .weapon_stand2{
+        width: 80%;
+        background-color: #1c1e22;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        justify-content: space-around; 
+        color: white;
+        margin: auto;
+    }
+    
+    .weapon_show{
+        width: 25%;
+        background-color: #1c1e22;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;  
+    }
+    
+    .botonvermas{
+        width: 95%;
+        cursor: pointer;
+        color: white;
+        background-color: #161d30;
+        border: 2px solid #202945;
+        height: 30px;
+        border-radius: 3px;
+    }
+    
+    .width{
+        width: 40%;
+    }
+    
+    .showcase{
+        width: 50%;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ancho{
+        width: 48%;
+        margin: auto;
+    } 
+    
+    #header{
+        height: 100px;
+        width: 100%;
+        background-color: #1c1e22;
+        float: left;
+        text-align: center;
+            
+    }
+    
+    #footer{
+        width: 100%;
+        height: 25px;
+        background-color: #1c1e22;
+        float: left;
+        text-align: center;
+        color: white;
+    }
+    
+    #footer a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #logo{
+        margin-top: 7px;
+        height: 90%;
+    }
+    
+    .img_ppal{
+        position: relative;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .tabla_izq{
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+    
+    .portada{
+        width: 100%;
+        align-items: center;
+    }
+    
+    .ppal_galery{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ancho{
+        width: 90%;
+    }
+    
+    .portada2{
+        width: 95%;
+        align-items: center;
+    }
+    
+    #cuerpo2{
+        margin: 0 10px;
+    }
+    
+    #menu{
+        float:left;
+        width: 100%;
+        height: 44.8px;
+        background-color: #1c1e22;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    #menu ul li{
+        background-color:#1c1e22;
+    }
+    
+    #menu ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    
+    #menu ul a{
+        display:block;
+        color:#fff;
+        text-decoration:none;
+        font-size:20px;
+        padding:10px;
+    }
+    
+    #menu ul li{
+        position:relative;
+        float:left;
+        margin:0;
+        padding:0;
+        width: 25%;
+    }
+    
+    #menu ul li:hover{
+        background:#21213b;
+     }
+    
+    #menu ul ul{
+        display:none;
+        position:absolute;
+        top:100%;
+        left:0;
+        padding:0;
+    }
+    
+    #menu ul ul li{
+        float:none;
+        width:110%;
+    }
+    
+    #menu ul ul a{
+        padding:10px 15px;
+    }
+    
+    #menu ul li:hover > ul{
+        display:block;
+    }
+}
